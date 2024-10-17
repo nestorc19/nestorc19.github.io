@@ -1,0 +1,146 @@
+body {   /*background color for the entire page*/
+    background-color: black;
+}
+h1 {     /* Formats the main title */
+    text-align: center;
+    color: #ed871d;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+
+.image-container {   /*centers the logo image*/
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+table {    /*styles the navigation menu*/
+        width: 100%;
+        background-color: #f33f34;
+        text-align: center;
+}
+
+td {     /* Styles individual table cells */
+    padding: 20px; /* Adds padding around the text */
+}
+
+table a {      /* Styles links within the table */
+        color: #fbfbfb;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+h2 {       /* Formats subtitles */
+    text-align: center;
+    color: #fbfbfb;        
+}
+strong {    /* Formats strong text */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #fbfbfb;
+}
+p {         /* Formats paragraphs */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: #fbfbfb;
+}
+.menu-cointaner {     /* Styles the menu container */ 
+    border: 2px solid #e32020;
+    padding:10px;
+    border-radius: 5px;
+}
+.menu {    /* Styles the menu list */
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu li {     /* Styles list items in the menu */
+    margin: 10px 0; 
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {     /* Styles the footer */
+    text-align: center;
+}
+
+.location-container {  /* Styles the map container */
+    display: flex;              
+    justify-content: center;     
+    align-items: center;         
+    height: 100%;
+}
+.centered-text {   /* Centers text within an element */
+    text-align: center;
+}
+
+.photo-container {   /* Styles the photo gallery container */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo-container img {  /* Styles images within the photo container */
+    width: 200px;
+    height: 200px;
+}
+
+.comments-container {     /* Styles the comments section */
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    text-align: left;
+    font:black;
+}
+.comments-container p {     /* Styles paragraphs within the comments section */
+    color:black;
+}
+
+
+.navigation-table {   /* Styles the second navigation table */
+    width: 50%;
+    background-color:#138d75 ;
+    text-align: center;
+    margin:20px auto;
+
+}
+
+.navigation-table td {     /* Styles cells in the navigation table */
+    padding: 10px;
+}
+
+
+.navigation-table a {      /* Styles links in the navigation table */
+        color: #fbfbfb;
+        font-size: 1.5em;
+        text-decoration: none;
+        font-weight: bold;
+}
+
+
+.story-container {    /* Styles the story section */
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+
+}
+
+.text-container {     /* Styles the text container within the story section */
+    flex: 1;
+    margin-right:20px;
+}
+
+.owners-container {   /* Styles the owners' container */
+    flex: 0 0 auto;
+}
+
+.owners-container img {   /* Styles images within the owners' container */
+    max-width: 100%;
+    height: auto;
+}
